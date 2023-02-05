@@ -11,7 +11,7 @@ const Header = () => {
                 <img src={FavoritesIcon} className="fas fa-lg fa-arrow-right mr-6 sm:mr-10 md:mr-15 lg:mr-25 xl:mr-35" ></img>
             </div>
             <div className='flex justify-center'>
-                <img src={PokemonLogo} alt="Header Logo" className="w-48  sm:w-48 md:w-64 lg:w-70 xl:w-80   -mt-20 sm:-mt-14 md:-mt-16 lg:-mt-16 xl:-mt-20"></img> 
+                <img src={PokemonLogo} alt="Header Logo" className="w-48  sm:w-48 md:w-64 lg:w-70 xl:w-80   -mt-12 sm:-mt-12 md:-mt-16 lg:-mt-16 xl:-mt-20"></img> 
             </div>
         </div>
 
