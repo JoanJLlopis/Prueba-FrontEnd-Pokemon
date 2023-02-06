@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'redaxios';
 import StatsBar from './StatsBar.component';
+import TypeTag from './TypeTag.component';
 
 
 
@@ -31,7 +32,7 @@ const PokemonCard = ({props}) => {
                         <div className='flex items-center justify-center'>
                             {
                                 pokemon.types?.map((pokemonType)=>(
-                                    <p className="text-sm text-slate-800 pr-1"> {pokemonType.type.name?.charAt(0).toUpperCase() + pokemonType.type.name?.slice(1)} </p>
+                                    <TypeTag type={pokemonType.type.name}/>
                                 ))
                             }
                         </div>
