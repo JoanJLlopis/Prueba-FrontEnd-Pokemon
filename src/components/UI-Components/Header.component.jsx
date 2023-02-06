@@ -5,7 +5,7 @@ import FavoritesIcon from '../../assets/Icons/FavoritesIcon.png'
 
 const Header = () => {
     return (
-        <div>
+        <div className='w-screen'>
             <div className="bg-red-500 p-2.5 flex items-center justify-between h-84">
                 <img src={MoonIcon} className="fas fa-lg fa-arrow-left ml-6 sm:ml-10 md:mr-15 lg:mr-25 xl:mr-35" />
                 <img src={FavoritesIcon} className="fas fa-lg fa-arrow-right mr-6 sm:mr-10 md:mr-15 lg:mr-25 xl:mr-35" />

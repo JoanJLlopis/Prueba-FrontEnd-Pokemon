@@ -55,6 +55,7 @@ const options = {
         }
     },
     barThickness: 6,
+    borderRadius: 25,
 };
 
 const labels = ['HP', 'Atk', 'Dfs', 'SAtk', 'SDfs', 'Spd'];
