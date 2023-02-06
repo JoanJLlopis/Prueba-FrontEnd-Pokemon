@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from 'react';
-
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -60,30 +58,20 @@ const options = {
 };
 
 const labels = ['HP', 'Atk', 'Dfs', 'SAtk', 'SDfs', 'Spd'];
-const scores = [10,20,30,40,50,60]
 
 const StatsBar = ({stats}) => {
-    const [baseStats,setBaseStats] = useState([]);
-    
-    useEffect(()=>{
-        stats?.map((stat)=>{
-            baseStats.push(stat.base_stat)
-        })
-            console.log("🚀 ~ file: StatsBar.component.jsx:73 ~ stats?.map ~ baseStats", baseStats)
-    },[baseStats])
 
     const data = {
         labels,
         datasets: [
         {
-            data: baseStats,
+            data: stats,
             borderColor: 'rgb(255, 99, 132)',
             backgroundColor: 'rgb(255, 99, 132)',
         },
         ],
-    };
-
-
+    }
+        
     return (
         <div>
             <Bar options={options} data={data}/>

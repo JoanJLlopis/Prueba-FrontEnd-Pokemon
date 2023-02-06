@@ -7,7 +7,7 @@ const CardView = () => {
 
     useEffect(()=>{
         axios.get({
-            url:`https://pokeapi.co/api/v2/pokemon?limit=10&offset=0`,
+            url:`https://pokeapi.co/api/v2/pokemon?limit=50&offset=0`,
         }).then(response => { setPokemons(response.data.results)})
     },[]);
 
