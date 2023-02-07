@@ -17,7 +17,7 @@ const PokemonCard = ({props}) => {
     }
     useEffect(()=>{
         axios.get({
-            url:props.url,
+            url:`https://pokeapi.co/api/v2/pokemon/${props.pokemon_species.name}`,
         }).then(response => { setPokemon(response.data)})
     },[])
     return (
