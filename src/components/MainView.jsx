@@ -1,7 +1,7 @@
 import React from 'react';
-import { Fragment } from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './UI-Components/Header.component';
+import Pagination from './UI-Components/Pagination.component';
 import SearchBar from './UI-Components/SearchBar.component';
 
 const MainView = () => {
@@ -10,6 +10,7 @@ const MainView = () => {
             <Header/>
             <SearchBar/>
             <Outlet/>
+{/*             <Pagination/> */}
         </>
     );
 };

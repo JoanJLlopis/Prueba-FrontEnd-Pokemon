@@ -34,7 +34,7 @@ const options = {
     scales:{
         x:{
             min: 0,
-            max: 255,
+            max: 450,
             border:{
                 display:false
             },
@@ -67,14 +67,14 @@ const StatsBar = ({stats}) => {
         datasets: [
         {
             data: stats,
-            borderColor: 'rgb(255, 99, 132)',
-            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(239 68 68)',
+            backgroundColor: 'rgb(239 68 68)',
         },
         ],
     }
         
     return (
-        <div>
+        <div className='w-50'>
             <Bar options={options} data={data}/>
         </div>
     );

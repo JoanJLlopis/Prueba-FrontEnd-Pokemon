@@ -77,7 +77,7 @@ const types = {
 const TypeTag = ({type}) => {
     return (
         <div>
-            <img className='w-20' src={types[type]?.iconUrl}/> 
+            <img className='w-32 px-0.5' src={types[type]?.iconUrl}/> 
         </div>
     );
 };
