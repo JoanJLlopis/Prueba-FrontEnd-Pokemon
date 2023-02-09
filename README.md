@@ -1,70 +1,18 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+# Iniciar el proyecto
+### `npm i -D`
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Herramientas y Documentación
+Se ha hecho uso de la libreria React de JS para realizar el desarrollo de la prueba técnica propuesta y para los estilos se ha hecho uso de TailwindCss.
+También se ha hecho uso de otras herramientas como ChartJs y React-chartjs-2 para las gráficas, y Figma para el diseño de las etiquetas de tipos y las interfaces.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para hacer uso de las herramientas se ha hecho uso de la siguiente documentación:
+- [TailwindCss] (https://tailwindcss.com/docs/installation)
+- [ChartJs] (https://www.chartjs.org/docs/latest/)
+- [React-chartjs-2] (https://react-chartjs-2.js.org/)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Problemas y soluciones
+-  Paginación: Nunca habia realizado ningun tipo de paginación por ello tuve que investigar un poco en diversos sitios web y algunos videos de youtube, encontre muchas soluciones pero la mayoria de ellas eran muy especificas para el tipo de explicación que daban por ello finalmente despues de haber leido varias soluciones desarrolle una que se adaptara bien a mi proyecto.
+- Detalles: El componente de detalles fue el mas costoso debido a la gran cantidad de llamadas a la Api que tuve que realizar para conseguir la solución que queria, sin embargo tras un par de horas entendiendo la API y probando cosas consegui dar con la mayoria de información que queria. Sin embargo algunos de los datos que queria no supe como obtenerlos de la forma que necesitaba.
+- Gráficas: La creación de las graficas para los estados no fue sencilla ya que me llevo varias horas investigando en la documentación hasta que conseguí todo lo que necesitaba para crear las gráficas como queria y conseguir que se adaptaran a la Card creada para los Pokemon
+- Modo oscuro: No he conseguido crearlo debido a que despues de investigar no he encontrado una solución optima que se pueda aplicar al proyecto. Creo que necesito profundizar un poco mas.
